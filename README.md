@@ -11,7 +11,7 @@
   
 *  **URL Params**
 
-   https://stg-lekinfo.herokuapp.com/api/v1/drug?all=<search query> 
+    
 
    **Required:**
  
@@ -19,7 +19,11 @@
 
    **Optional:**
  
-   `?all=Парацетамол`
+    `https://stg-lekinfo.herokuapp.com/api/v1/drug?all=Парацетамол`
+    
+   **Description**
+    
+   Search by  full_trade_name, name, atc_name, dosage_form     
 
 * **Success Response:**
   
