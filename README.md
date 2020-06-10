@@ -11,19 +11,20 @@
   
 *  **URL Params**
 
-    
-
-   **Required:**
- 
-    `None`
-
    **Optional:**
- 
+   
+    To search
+    Search by `full_trade_name`  `name, atc_name`  `dosage_form `
+   
     https://stg-lekinfo.herokuapp.com/api/v1/drug?all=Парацетамол
     
-   **Description**
+    Current page is 1 by default, to change use `?page=<page number>`
     
-   Search by  full_trade_name, name, atc_name, dosage_form     
+    https://stg-lekinfo.herokuapp.com/api/v1/drug?page=3
+    
+    Per page by default 20 items, 
+    
+    
 
 * **Success Response:**
   
