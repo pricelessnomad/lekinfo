@@ -19,7 +19,7 @@
 
    **Optional:**
  
-    `https://stg-lekinfo.herokuapp.com/api/v1/drug?all=Парацетамол`
+    https://stg-lekinfo.herokuapp.com/api/v1/drug?all=Парацетамол
     
    **Description**
     
